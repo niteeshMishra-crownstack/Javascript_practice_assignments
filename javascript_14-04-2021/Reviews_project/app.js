@@ -43,11 +43,12 @@ const randomBtn = document.querySelector('.random-btn');
 
 //set starting item
 
-let currentItem = 3;
+let currentItem = 0;
 
 //load initial item
 
 window.addEventListener("DOMContentLoaded", function() {
+
     showPerson(currentItem)
 })
 
@@ -75,7 +76,7 @@ nextBtn.addEventListener('click', function() {
 //show prev person
 prevBtn.addEventListener('click', function() {
     currentItem--;
-    if (cuurentItem < 0) {
+    if (currentItem < 0) {
         currentItem = reviews.length - 1;
     }
     showPerson(currentItem)
