@@ -1,0 +1,1 @@
+![alt text](lorem_ipsum.png);
