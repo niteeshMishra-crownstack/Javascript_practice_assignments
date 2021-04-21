@@ -1,0 +1,1 @@
+![alt text](javascript_slider.png);
